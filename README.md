@@ -9,6 +9,8 @@ Use the app to get notifications when you can buy more Handelsbanken stocks by s
 ## Tech
 The app uses Topshelf, together with Quartz and StructureMap, and fetches real time data from Yahoo. Nasdaq is also a usable source, but the data is 15 min delayed.
 
+[BurntToast](https://github.com/Windos/BurntToast) is used to toast notifications.
+
 ## Contribute
 Of course the app could be extended to check for any interesting stock event, such as MA50 breaking throuh MA200. Free to use in any way.
 
